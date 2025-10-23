@@ -1,0 +1,39 @@
+/* Basic setup */
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+/* Banner Section */
+.banner {
+  height: 40vh;
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(banner.jpg);
+  background-size: cover;
+  background-position: center;
+  color: wheat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+/* text */
+.banner h1 {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+.banner p {
+  font-size: 30px;
+  color: #ddd;
+}
+/* Button */
+.btn {
+  padding: 10px 25px;
+  background-color: #ff6600;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.btn:hover {
+  background-color: #cc5200;
+}
